@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend de proyecto ICDE-EAFIT (Proyecto - CAOBA)
 
-## Getting Started
+## Descripción del Proyecto
 
-First, run the development server:
+Esta es la interfaz de usuario que permite a los usuarios cargar y validar diferentes tipos de datos geoespaciales, incluyendo vectores, rásters y geoservicios. La plataforma proporciona una interfaz intuitiva para subir archivos, seleccionar tipos de datos y realizar validaciones automáticas.
+
+## Características Principales
+
+- **Tipos de Datos Soportados**:
+
+  - Vectores (GDB, Polígonos, Líneas, Puntos)
+  - Rásters (Modelo Digital del Terreno, Orto-imágenes)
+  - Geoservicios (WFS, WMS, WMTS)
+
+- **Funcionalidades**:
+  - Carga de metadatos en formato XML
+  - Selección dinámica de tipos de datos
+  - Validación automática de archivos
+  - Soporte para diversos formatos de archivo (ZIP, GPKG, SHP, TIF, IMG)
+  - Procesamiento y subida de archivos a Amazon S3
+  - Validación de datos con múltiples criterios
+
+## Tecnologías Utilizadas
+
+- **Frontend**:
+
+  - React
+  - Next.js
+  - Tailwind CSS
+  - Hooks de React (useState)
+
+- **Backend**:
+
+  - AWS S3 para almacenamiento
+  - Servicio de procesamiento de datos personalizado en AWS Lambda y EC2
+
+- **Bibliotecas Principales**:
+  - @aws-sdk/client-s3
+  - JSZip
+  - fetch API
+
+## Requisitos Previos
+
+- Node.js (v14 o superior)
+- Cuenta de AWS con permisos de S3
+- Variables de entorno configuradas:
+  - NEXT_PUBLIC_AWS_ACCESS_KEY_ID
+  - NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY
+  - NEXT_PUBLIC_AWS_SESSION_TOKEN
+  - NEXT_PUBLIC_AWS_BUCKET_NAME
+  - NEXT_PUBLIC_SERVER_IP
+
+## Instalación
+
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tduqueg/icde-validator.git
+cd icde-validator
+```
+
+2. Instalar dependencias
+
+```bash
+npm install
+```
+
+3. Configurar variables de entorno
+
+- Crear un archivo `.env`
+- Añadir las variables de entorno necesarias
+
+4. Iniciar la aplicación
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Flujo de Uso
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Subir Metadatos**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   - Seleccionar un archivo XML con metadatos
+   - El archivo debe cumplir con los estándares de metadatos geoespaciales
 
-## Learn More
+2. **Seleccionar Tipo de Dato**:
 
-To learn more about Next.js, take a look at the following resources:
+   - Vector
+   - Ráster
+   - Geoservicio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Subir Archivos**:
+   - Seleccionar subtipo específico
+   - Arrastrar o seleccionar archivo
+   - Soporta múltiples formatos según el tipo de dato
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Validaciones Realizadas
 
-## Deploy on Vercel
+La aplicación realiza múltiples validaciones automáticas, incluyendo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Valores nulos
+- Consistencia de origen geográfico
+- Errores de superposición
+- Verificación de bandas (para rásters)
+- Integridad de archivos GDB
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Estructura del Proyecto
+
+```
+/src
+├── components
+│   ├── DataUpload.js
+│   ├── MetadataTypeSelector.js
+│   └── MetadataUpload.js
+├── page.js
+├── layout.js
+├── .env
+└── styles
+    └── globals.css
+    └── tailwind.css
+
+```
