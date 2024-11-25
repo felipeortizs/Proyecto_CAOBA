@@ -53,8 +53,8 @@ El proyecto está organizado en los siguientes directorios:
 - [📁 mandatados_geoservicio](./mandatados_geoservicio) - servicios geográficos mandatados
 - [📁 metadatos_raster_vector](./metadatos_raster_vector) - archivos raster y vectoriales
 - [📄 Presentación](./presentacion.pdf)
-- [📄 Validador de Datos](./validador_datos.pdf)
-- [📄 Frontend](./Frontend.pdf)
+- [📄 Validador de Datos](./validador_datos)
+- [📄 Frontend](./Frontend)
 
 ### 1. Módulo de Validación de Metadatos
 - Validación de archivos XML con metadatos geoespaciales
