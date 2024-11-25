@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd&#xA;                  http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd&#xA;                  http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd&#xA;  ">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>a2208aff-0339-4981-a81b-8f3ec36da9d9</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:geonet="http://www.fao.org/geonetwork">
+      <gco:CharacterString>spa</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_CharacterSetCode codeListValue="utf8"
+                               codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:geonet="http://www.fao.org/geonetwork">
+      <gco:CharacterString>Amenaza Inundación TR 50 Años, centros poblados, 2k.</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>José Ville Triana García</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - Subdirección de Hidrología - Grupo de Modelación y Pronóstico Hidrológico</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Consultor</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>57 1 3527160 Ext.1507</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 25D No. 96B -70 Piso 3</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>jtriana@ideam.gov.co</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:hoursOfService>
+                  <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+               </gmd:hoursOfService>
+               <gmd:contactInstructions>
+                  <gco:CharacterString>Por medio teléfonico o a través de correo electrónico.</gco:CharacterString>
+               </gmd:contactInstructions>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="author"
+                             codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Nelsy Verdugo</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - Subdirección de Hidrología - Grupo de Modelación y Pronóstico Hidrológico</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Profesional Especializado</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>57 1 3527160</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 25D No. 96B -70 Piso 2</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>hidrologia@ideam.gov.co</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>nverdugo@ideam.gov.co</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:hoursOfService>
+                  <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+               </gmd:hoursOfService>
+               <gmd:contactInstructions>
+                  <gco:CharacterString>Por medio teléfonico o a través de correo electrónico.</gco:CharacterString>
+               </gmd:contactInstructions>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="custodian"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:geonet="http://www.fao.org/geonetwork">
+      <gco:DateTime>2024-04-29T21:17:23</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:geonet="http://www.fao.org/geonetwork">
+      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:geonet="http://www.fao.org/geonetwork">
+      <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_GeometricObjectTypeCode"
+                                                  codeListValue="surface"/>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>1</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>4686</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>European Petroleum Survey Group - EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version>
+                  <gco:CharacterString>7.5</gco:CharacterString>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Amenaza Inundación TR 50 Años, centros poblados, 2k.</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2018-02-17T00:00:00</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="creation"
+                                             codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>Segunda</gco:CharacterString>
+               </gmd:edition>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Nelsy Verdugo</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - Subdirección de Hidrología - Grupo de Modelación y Pronóstico Hidrológico</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Profesional Especializado</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>57 1 3527160 Ext.1701</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile gco:nilReason="missing">
+                                    <gco:CharacterString/>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Calle 25D No. 96B -70 Piso 2</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110311</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>Colombia</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>hidrologia@ideam.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>nverdugo@ideam.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>www.ideam.gov.co</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                 </gmd:protocol>
+                                 <gmd:name>
+                                    <gco:CharacterString>Portal del Instituto de Hidrología, Meteorología y Estudios Ambientales</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>En este portal encontrará la información general sobre la Subdirección de Hidrología y el grupo temático de Modelación y Pronóstico Hidrológico</gco:CharacterString>
+                                 </gmd:description>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:hoursOfService>
+                              <gco:CharacterString>De Lunes a Viernes de 8:00 a 17:00</gco:CharacterString>
+                           </gmd:hoursOfService>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>A través de correo electrónico y vía telefónica</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="custodian"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeListValue="mapDigital"
+                                               codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>El estudio de zonificación de amenaza de inundación consistió en la estimación de la extensión de la inundación para los periodos de retorno de 2, 10, 20, 50 y 100 años, considerando eventos de amenaza baja, media y alta, respectivamente, para 16 cabeceras municipales en 2018, Puerto Berrío, Puerto Nare y Puerto Triunfo (Antioquia), Cantagallo (Bolívar), Puerto Boyacá (Boyacá), Girardot, Guataquí y Ricaurte (Cundinamarca), Aipe y Villavieja (Huila), Puerto Wilches (Santander), Ambalema, Flandes, Honda, Natagaima, Purificación (Tolima); y 6 corregimientos, La Sierra (Puerto Nare-Antioquia), Puerto Perales (Puerto Triunfo-Antioquia), Puerto Serviez (Puerto Boyacá-Boyacá), Puerto Bogotá (Guaduas-Cundinamarca), Puerto Olaya (Cimitarra-Santander), Guataquisito (Piedras-Tolima); 10 cabeceras municipales en 2019, Murindó y Vigía del Fuerte (Antioquia), Atrato (Yuto), Bagadó, Bojayá (Bellavista), Carmen del Darién (Curbaradó), Lloró, Medio Atrato (Beté), Quibdó, Riosucio (Chocó); y 5 corregimientos, Opogadó (Murindó-Antioquia), Boraudó (Lloró-Chocó), Domingodó (Carmen del Darién (Curbaradó)-Chocó), La Vuelta (Cértegui-Chocó), Tagachí (Quibdó-Chocó); a escala 1: 2000.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>Conocer y evaluar las amenazas por inundación para 16 cabeceras municipales en 2018, Puerto Berrio, Puerto Nare y Puerto Triunfo (Antioquia), Cantagallo (Bolívar), Puerto Boyacá (Boyacá), Girardot, Guataquí y Ricaurte (Cundinamarca), Aipe y Villavieja (Huila), Puerto Wilches (Santander), Ambalema, Flandes, Honda, Natagaima, Purificación (Tolima); y 6 corregimientos, La Sierra (Puerto Nare-Antioquia), Puerto Perales (Puerto Triunfo-Antioquia), Puerto Serviez (Puerto Boyacá-Boyacá), Puerto Bogotá (Guaduas-Cundinamarca), Puerto Olaya (Cimitarra-Santander), Guataquisito (Piedras-Tolima); 10 cabeceras municipales en 2019, Murindó y Vigía del Fuerte (Antioquia), Atrato (Yuto), Bagadó, Bojayá (Bellavista), Carmen del Darién (Curbaradó), Lloró, Medio Atrato (Beté), Quibdó, Riosucio (Chocó); y 5 corregimientos, Opogadó (Murindó-Antioquia), Boraudó (Lloró-Chocó), Domingodó (Carmen del Darién (Curbaradó)-Chocó), La Vuelta (Cértegui-Chocó), Tagachí (Quibdó-Chocó). Periodo de retorno de 50 años. Esta información se convierte en insumo fundamental para la construcción de los planes de manejo y prevención de desastres en los municipios trabajados.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>Subdirección de Hidrología - Centro Nacional de Modelación CNM</gco:CharacterString>
+         </gmd:credit>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeListValue="completed"
+                                 codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode"/>
+         </gmd:status>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="notPlanned"
+                                                   codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+               </gmd:maintenanceAndUpdateFrequency>
+               <gmd:maintenanceNote>
+                  <gco:CharacterString>Ley 99 de 1993, artículo 17 y Decreto 291 de 2009, artículo 14, numerales 1, 4, 5, 7, 9 y 10</gco:CharacterString>
+               </gmd:maintenanceNote>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>http://bart.ideam.gov.co/cneideam/Miniaturas_geonetwork/Amenaza_Ambiental/a2208aff-0339-4981-a81b-8f3ec36da9d9.jpg</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>Mapa de Zonificación de Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>Geodatabase</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>10.3</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Amenaza natural</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Inundaciones</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Periodo de retorno</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme"
+                                          codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Cabecera municipal</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="place"
+                                          codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="copyright"
+                                          codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="copyright"
+                                          codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Ninguna</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ClassificationCode"
+                                             codeListValue="unclassified"/>
+               </gmd:classification>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"
+                                                  codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:equivalentScale>
+                  <gmd:MD_RepresentativeFraction>
+                     <gmd:denominator>
+                        <gco:Integer>2000</gco:Integer>
+                     </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+               </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gco:CharacterString>spa</gco:CharacterString>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8"
+                                     codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>utilitiesCommunication</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>Centros poblados que presentan inundaciones de los departamentos de Antioquia, Bolívar, Chocó, Cundinamarca, Huila Santander y Tolima.</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-77.1282</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-73.8787</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>3.1898</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>7.4569</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>El estudio de zonificación de amenaza de inundación consistió en la estimación de la extensión de la inundación para los periodos de retorno de 2, 10, 20, 50 y 100 años, considerando eventos de amenaza baja, media y alta, respectivamente. Para ello se seleccionaron sectores en Colombia asociados con zonas urbanas en las que recurrentemente se han evidenciado afectaciones por inundación.</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_FeatureCatalogueDescription>
+         <gmd:language>
+            <gco:CharacterString>spa</gco:CharacterString>
+         </gmd:language>
+         <gmd:includedWithDataset>
+            <gco:Boolean>false</gco:Boolean>
+         </gmd:includedWithDataset>
+         <gmd:featureTypes>
+            <gco:LocalName>Zonificación de Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gco:LocalName>
+         </gmd:featureTypes>
+         <gmd:featureCatalogueCitation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>UUID: b64b432d-ead5-4d7f-ada8-cb7c9deff314</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>UUID: b64b432d-ead5-4d7f-ada8-cb7c9deff314</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2016-12-22</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="documentDigital"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:featureCatalogueCitation>
+      </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>File Geodatabase</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>1.0</gco:CharacterString>
+               </gmd:version>
+               <gmd:specification>
+                  <gco:CharacterString>Software ESRI - ArcGis 10.3</gco:CharacterString>
+               </gmd:specification>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Martha Patricia León Poveda</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - Subdirección de Ecosistemas e Información Ambiental- Grupo SIA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Subdirección de.... - Grupo de.....</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>57 1 3527160 Ext.1703</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Calle 25D No. 96B -70 Piso 2</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110911</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>Colombia</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>pleon@ideam.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>www.ideam.gov.co</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:protocol>
+                                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                 </gmd:protocol>
+                                 <gmd:name>
+                                    <gco:CharacterString>Portal del Instituto de Hidrología, Meteorología y Estudios Ambientales- Grupo Sistema de Información Ambiental -SIA</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>En este portal encontrará la información general sobre la Subdirección de Subdirección de Ecosistemas e Información Ambiental y el grupo temático del SIA.</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function>
+                                    <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                               codeListValue="information"/>
+                                 </gmd:function>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:hoursOfService>
+                              <gco:CharacterString>De Lunes a Viernes de 8:00 a 17:00</gco:CharacterString>
+                           </gmd:hoursOfService>
+                           <gmd:contactInstructions>
+                              <gco:CharacterString>Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Subdirección de Ecosistemas e Información Ambiental - Grupo de Sistema de Información Ambiental</gco:CharacterString>
+                           </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="distributor"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:orderingInstructions>
+                        <gco:CharacterString>En caso que la información no se encuentre en el geoportal institucional, realizar la solicitud a través de oficio al Subdirector de Ecosistemas e Información Ambiental del IDEAM o por correo electrónico.</gco:CharacterString>
+                     </gmd:orderingInstructions>
+                     <gmd:turnaround>
+                        <gco:CharacterString>Cinco días hábiles</gco:CharacterString>
+                     </gmd:turnaround>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:unitsOfDistribution>
+                  <gco:CharacterString>www.ideam.gov.co</gco:CharacterString>
+               </gmd:unitsOfDistribution>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://visor.ideam.gov.co:8530/geovisor/#!/profiles/3</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Visor Geográfico Institucional del IDEAM</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>En este visor geográfico, puede consultar y descargar la información geográfica ambiental del Instituto de Hidrología, Meteorología y Estudios Ambientales -IDEAM</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://geoservicios.ideam.gov.co/geonetwork/srv/api/records/a2208aff-0339-4981-a81b-8f3ec36da9d9/attachments/MG_h_amnz_inund_50a_2k_2019.jpg</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Zonificación de Amenaza por Inundación</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Mapa de Zonificación de Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Este es el mapa de referencia que indica la localización de las cabeceras y centros poblados con amenaza de inundación, y la manera como para cada centro poblado es presentada la zonificación de la amenaza por inundación.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://geoservicios.ideam.gov.co/geonetwork/srv/api/records/a2208aff-0339-4981-a81b-8f3ec36da9d9/attachments/MG_h_amnz_inund_50a_2k_2019.jpg</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Zonificación de Amenaza por Inundación</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gmx:MimeFileType type="application/octet-stream">Zonificación de Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gmx:MimeFileType>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Este mapa es indicativo de la localización de los centros poblados  y la forma cómo se encuentra zonificada la amenaza en éstos. Estos municipios corresponden con la información al año 2019</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="information"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="dataset"
+                                    codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode"/>
+               </gmd:level>
+               <gmd:levelDescription/>
+               <gmd:levelDescription>
+                  <gmd:MD_ScopeDescription>
+                     <gmd:dataset>
+                        <gco:CharacterString>H_Amnz_Inund_50a_2k_2019</gco:CharacterString>
+                     </gmd:dataset>
+                  </gmd:MD_ScopeDescription>
+               </gmd:levelDescription>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_ThematicClassificationCorrectness>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Índice de error</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Determinando el número de errores detectados sobre el número de revisiones realizadas. Se determina el porcentaje de inconsistencias. Si es superior al 1 porciento se considera el conjunto no conforme.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodType>
+                  <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                   codeListValue="directInternal"/>
+               </gmd:evaluationMethodType>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Dentro del conjunto de datos solo deben existir datos con los valores de dominio definidos. Esto se realiza en un software con soporte apropiado para esta tarea.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:evaluationProcedure>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Procedimiento propio del IDEAM, Subdirección de hidrología. Inspección completa de la exactitud temática</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2016-08-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="creation"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:evaluationProcedure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueType>
+                        <gco:RecordType>Resultado de Conformidad</gco:RecordType>
+                     </gmd:valueType>
+                     <gmd:value>
+                        <gco:Record>No aplica</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_ThematicClassificationCorrectness>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_TopologicalConsistency>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Conteo de errores</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:measureDescription>
+                  <gco:CharacterString>Determinar el numero de errores hasta alcanzar una condición con cero errores topológicos.</gco:CharacterString>
+               </gmd:measureDescription>
+               <gmd:evaluationMethodType>
+                  <gmd:DQ_EvaluationMethodTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DQ_EvaluationMethodTypeCode"
+                                                   codeListValue="directInternal"/>
+               </gmd:evaluationMethodType>
+               <gmd:evaluationMethodDescription>
+                  <gco:CharacterString>Se debe determinar todas aquellas reglas que se desean comprobar. Luego de definidas se corren en un software con soporte apropiado para esta tarea.
+Se debe retomar el reporte arrojado por el mismo y tomar el número de errores encontrados y dividirlos por el número de revisiones realizadas por el software.
+En caso de superar un valor del 1 porciento el producto es no conforme, y debe ser revisado para lograr un máximo de correcciones. Cuando sea inferior a este porcentaje se considera conforme.</gco:CharacterString>
+               </gmd:evaluationMethodDescription>
+               <gmd:evaluationProcedure>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Procedimiento general para la evaluación de la topología en conjunto de datos en el IDEAM. Inspección completa de la Consistencia Lógica</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2015-12-08</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:evaluationProcedure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueType>
+                        <gco:RecordType>Resultado de Conformidad</gco:RecordType>
+                     </gmd:valueType>
+                     <gmd:value>
+                        <gco:Record>No aplica</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_TopologicalConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Este objeto geográfico está relacionado con la estimación de áreas de inundación de forma indirecta, en función de un modelo hidrológico y el modelo de elevación digital (Lidar de alta resolución espacial 0,15 - 1m). El Ideam, para el 2010, recibe el producto resultado del contrato interadministrativo 408-2013 entre el IDEAM y la Universidad Nacional de Colombia; el cúal era la elaboración de los mapas de amenaza por inundación en 10 zonas urbanas. Para el 2016, el Ideam recibe la información del proyecto Mojana del Fondo de Adaptación 2014 y el proyecto del Brazo Mompós SIGLA 2016; con esta información se elaborararón los mapas de amenaza por inundación en 11 zonas urbanas. En 2017, con la información del proyecto Mojana, se elaboraron los mapas de amenaza por inundación en 22 zonas urbanas. Para el 2018, el Ideam recibe la información del MADS y se elaboran 22 zonas urbanas. La verificación consiste en ubicar la zonificación en el municipio definido y en la cercania del (los) cuerpo(s) de agua presentes en el municipio; se evalua la correspondencia en puntos de control y la coherencia para diferentes períodos de retorno de la amenaza por inundación.
+Toda la información fue verificada mediante el muestreo de las zonas definidas como inundación con base en la metodología propuesta en el marco del proyecto "Zonificación de amenazas por inundaciones en áreas urbanas", donde se identificaron tres tipos de amenaza Alta, Media y Baja, que fueron definidas teniendo en cuenta la magnitud de los daños sucedidos en cada zona. Adicionalmente, se verificó para todos los elementos de la cartografía temática, que cumplan con las reglas topológicas (conectividad, adyacencia, vacíos y sobre posición). Esto se realizó bajo un software SIG.</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>Información para la identificación de amenazas por inundación.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>2000</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Red estaciones del IDEAM</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="creation"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:presentationForm>
+                              <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode"
+                                                           codeListValue="imageDigital"/>
+                           </gmd:presentationForm>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>Información de referencia para la identificación de amenazas por inundación.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:scaleDenominator>
+                        <gmd:MD_RepresentativeFraction>
+                           <gmd:denominator>
+                              <gco:Integer>850</gco:Integer>
+                           </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                     </gmd:scaleDenominator>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Estaciones hidrometeorológicas</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="publication"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:portrayalCatalogueInfo xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:MD_PortrayalCatalogueReference>
+         <gmd:portrayalCatalogueCitation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Ficha de Representación Simbólica para el objeto de Zonificación de Amenaza por Inundación, periodo de retorno 50 años, para centros poblados de la República de Colombia, Escala 1: 2000. IDEAM 2019</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>FRS_H_Amnz_Inund_50a_2k_2019</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2016-12-23</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>Primera</gco:CharacterString>
+               </gmd:edition>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="documentDigital"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:portrayalCatalogueCitation>
+      </gmd:MD_PortrayalCatalogueReference>
+  </gmd:portrayalCatalogueInfo>
+</gmd:MD_Metadata>
