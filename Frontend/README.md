@@ -76,6 +76,11 @@ npm install
 npm run dev
 ```
 
+5. Acceder a la aplicación en `http://localhost:3000`
+
+6. Ejemplo de visualización
+   ![alt text](images/image.png)
+
 ## Flujo de Uso
 
 1. **Subir Metadatos**:
